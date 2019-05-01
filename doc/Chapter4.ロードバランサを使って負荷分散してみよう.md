@@ -1,6 +1,10 @@
-# Chapter5.ロードバランサを使って負荷分散してみよう
+# Chapter4.ロードバランサを使って負荷分散してみよう
 
 ## 参考サイト
+
+- [Azure Load Balancer の概要](https://azure.microsoft.com/ja-jp/documentation/articles/virtual-machines-load-balance/)
+
+- [Load Balancer の価格](https://azure.microsoft.com/ja-jp/pricing/details/load-balancer/)
 
 - [Load Balancer と Application Gateway の通信の違い](https://blogs.technet.microsoft.com/jpaztech/2018/11/26/lb_appgw_traffic_different/)
 
