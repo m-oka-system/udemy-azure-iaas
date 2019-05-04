@@ -6,6 +6,8 @@
 
 - [Load Balancer の価格](https://azure.microsoft.com/ja-jp/pricing/details/load-balancer/)
 
+- [Azure Load Balancer の分散モードを構成する](https://docs.microsoft.com/ja-jp/azure/load-balancer/load-balancer-distribution-mode)
+
 - [Load Balancer と Application Gateway の通信の違い](https://blogs.technet.microsoft.com/jpaztech/2018/11/26/lb_appgw_traffic_different/)
 
 ## コマンド集
