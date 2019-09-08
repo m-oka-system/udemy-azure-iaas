@@ -10,6 +10,8 @@
 
 - [Azure の Windows 仮想マシンのサイズ](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/sizes)
 
+- [Windows Virtual Machines の料金](https://azure.microsoft.com/ja-jp/pricing/details/virtual-machines/windows/)
+
 ## コマンド集
 
 #### WindowsServer2016を日本語化
