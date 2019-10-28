@@ -8,8 +8,6 @@
 
 - [ブロック BLOB の料金](https://azure.microsoft.com/ja-jp/pricing/details/storage/blobs/)
 
-- [Managed Disks の価格](https://azure.microsoft.com/ja-jp/pricing/details/managed-disks/)
-
 - [ストレージ アカウントの課金について](https://blogs.msdn.microsoft.com/dsazurejp/2019/02/26/strageaccount/)
 
 - [Azureディスクストレージの種類(2018年6月現在)](https://blogs.technet.microsoft.com/jpaztech/2018/06/11/choose_azure_disk/)
