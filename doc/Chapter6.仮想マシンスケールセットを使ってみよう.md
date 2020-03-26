@@ -4,7 +4,7 @@
 
 - [Azure ポータルからDSCを設定する](https://docs.microsoft.com/ja-jp/azure/virtual-machines/extensions/dsc-overview#azure-portal-functionality)
 
-- [Azure Desired State Configuration 拡張機能のバージョン履歴](https://docs.microsoft.com/ja-jp/powershell/dsc/getting-started/azureDscexthistory)
+- [Azure Desired State Configuration 拡張機能のバージョン履歴](https://docs.microsoft.com/ja-jp/powershell/scripting/dsc/getting-started/azuredscexthistory?view=powershell-7)
 
 - [自動スケールのスケールルールについて](https://blogs.msdn.microsoft.com/jpcie/?p=1315)
 
