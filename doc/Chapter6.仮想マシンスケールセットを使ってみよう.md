@@ -6,7 +6,7 @@
 
 - [Azure Desired State Configuration 拡張機能のバージョン履歴](https://docs.microsoft.com/ja-jp/powershell/scripting/dsc/getting-started/azuredscexthistory?view=powershell-7)
 
-- [自動スケールのスケールルールについて](https://blogs.msdn.microsoft.com/jpcie/?p=1315)
+- [自動スケールのスケールルールについて](https://docs.microsoft.com/ja-jp/archive/blogs/jpcie/1315)
 
 ## コマンド集
 
