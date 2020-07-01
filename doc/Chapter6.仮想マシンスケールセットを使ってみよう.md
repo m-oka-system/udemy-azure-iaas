@@ -32,8 +32,9 @@ while ($true) {}
 イメージはあらかじめ作成(日本語化)しているカスタムイメージを選択する。
 ![VMSSの作成-基本](https://user-images.githubusercontent.com/22112831/80272531-80942480-8705-11ea-95b5-44254e1975e3.png)
 
-**[ディスク]**  
+**[ディスク]**
 Premium SSDのまま次へ。
+
 ![VMSSの作成-ディスク](https://user-images.githubusercontent.com/22112831/80272582-f5fff500-8705-11ea-8586-0836961acaff.png)
 
 **[ネットワーク]**  
@@ -75,3 +76,51 @@ VMSS新規作成時にパブリックIPアドレス名、ドメイン名ラベ�
 
 Chapter4の「ロードバランサの作成」の後半に解説している手順を参考にしてみてください。
 ![パブリックIPアドレスのDNS名ラベル](https://user-images.githubusercontent.com/22112831/80273120-8b9d8380-870a-11ea-89a6-a4f5d455b1a8.png)
+
+
+<br>
+
+# PowershellDSCのインストール手順(2020年7月時点)
+「Configuration Modules or Script」の参照ボタンをクリックする。  
+![DSCインストール1](https://user-images.githubusercontent.com/22112831/86205154-23ed3400-bba4-11ea-995d-db253307fc3c.png)
+
+<br>
+
+Chapter3で作成済みのストレージアカウントを選択する。
+もし作成していない場合は、画面上部の「+ストレージアカウント」から新規作成することもできる。
+![DSCインストール2](https://user-images.githubusercontent.com/22112831/86205252-5860f000-bba4-11ea-8830-84e2f162c696.png)
+
+<br>
+
+アップロード先のコンテナーを選択する。
+ブート診断用に自動的に作成されているものを選択してもOKだが新しくコンテナーを作成したほうがわかりやすい。  
+画面上部の「+コンテナー」から新規作成することができる。画面の例では「powershelldsc」というコンテナーを選択している。
+![DSCインストール3](https://user-images.githubusercontent.com/22112831/86205334-8d6d4280-bba4-11ea-8448-c1a661bc69d2.png)
+
+<br>
+
+アップロードをクリックする。
+![DSCインストール4](https://user-images.githubusercontent.com/22112831/86205450-dae9af80-bba4-11ea-91de-e01cd8a09aea.png)
+
+<br>
+
+ファイルの選択アイコンをクリックして、あらかじめGitHubからダウンロードしている「WindowsWebServer.zip」を選択する。
+![DSCインストール5](https://user-images.githubusercontent.com/22112831/86205466-e937cb80-bba4-11ea-90a8-eefca8845856.png)
+
+<br>
+
+アップロードをクリックする。
+![DSCインストール6](https://user-images.githubusercontent.com/22112831/86205556-21d7a500-bba5-11ea-81ff-a51406dd0353.png)
+
+<br>
+
+コンテナーの中にアップロードされた「WindowsWebServer.zip」をクリックして選んだ状態にしてから選択ボタンをクリックする。
+![DSCインストール7](https://user-images.githubusercontent.com/22112831/86205569-2bf9a380-bba5-11ea-85df-d8486a616cc7.png)
+
+<br>
+
+残りの以下の項目は動画の通り入力して進める。  
+Module-qualified Name of Configuration：WindowsWebServer.ps1\IISInstall  
+Version：2.76  
+
+![DSCインストール8](https://user-images.githubusercontent.com/22112831/86205687-78dd7a00-bba5-11ea-92b5-77bceec17077.png)
