@@ -81,6 +81,9 @@ Chapter4の「ロードバランサの作成」の後半に解説している手
 <br>
 
 # PowershellDSCのインストール手順(2020年7月時点)
+DSCのスクリプトを直接アップロードすることができなくなり、ご自身のストレージアカウントに  
+アップロードしてから選択する手順に変更になりましたので、その手順について補足いたします。
+
 「Configuration Modules or Script」の参照ボタンをクリックする。  
 ![DSCインストール1](https://user-images.githubusercontent.com/22112831/86205154-23ed3400-bba4-11ea-995d-db253307fc3c.png)
 
@@ -124,3 +127,7 @@ Module-qualified Name of Configuration：WindowsWebServer.ps1\IISInstall
 Version：2.76  
 
 ![DSCインストール8](https://user-images.githubusercontent.com/22112831/86205687-78dd7a00-bba5-11ea-92b5-77bceec17077.png)
+
+<br>
+
+DSCのインストール完了後は動画の通りインスタンスのアップデートの操作を行って、ブラウザでアクセスするとHTMLが表示されることを確認してみてください。
