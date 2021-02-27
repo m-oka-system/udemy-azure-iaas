@@ -6,7 +6,16 @@
 
 - [Azure Monitor の価格](https://azure.microsoft.com/ja-jp/pricing/details/monitor/)
 
-- [Azure Monitor で Log Analytics の使用を開始する](https://docs.microsoft.com/ja-jp/azure/azure-monitor/log-query/get-started-portal)
+------
+Log Analytics 詳細情報のリンク
+
+- [はじめに（Log Analytics のチュートリアル）](https://docs.microsoft.com/ja-jp/azure/azure-monitor/logs/log-analytics-tutorial)
+
+- [オンラインコース（Pluralsight）](https://www.pluralsight.com/courses/kusto-query-language-kql-from-scratch)
+
+- [Log Analytics のデモ環境](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring_Logs/DemoLogsBlade)
+
+------
 
 - [Azure Monitor ログ レコードの標準プロパティ](https://docs.microsoft.com/ja-jp/azure/azure-monitor/platform/log-standard-properties)
 
@@ -43,10 +52,10 @@ Perf
 Perf
 | where Computer == "w-iaas-vm01"
 | where CounterName == "% Free Space"
-| extend UsedSpace = 100 - CounterValue 
-| where InstanceName matches regex "[A-Z]:" 
+| extend UsedSpace = 100 - CounterValue
+| where InstanceName matches regex "[A-Z]:"
 | summarize arg_max(TimeGenerated, UsedSpace) by Computer, InstanceName
-| sort by InstanceName asc 
+| sort by InstanceName asc
 | where (InstanceName == "C:" and UsedSpace > 70)
 or (InstanceName == "D:" and UsedSpace > 70)
 or (InstanceName == "E:" and UsedSpace > 70)
@@ -56,8 +65,8 @@ Event
 | where Computer == "w-iaas-vm01"
 | where EventLevelName == "Error"
 | where not (EventID == 46 and Source == "volmgr")
-| project TimeGenerated , Computer , EventLog , EventLevelName , EventID , Source , RenderedDescription 
-| sort by TimeGenerated asc 
+| project TimeGenerated , Computer , EventLog , EventLevelName , EventID , Source , RenderedDescription
+| sort by TimeGenerated asc
 ```
 
 ## コマンド集
