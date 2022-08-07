@@ -38,6 +38,7 @@ Azureポータルの画面が変わっているため、動画講座の補足資
 - SKU：Standard
 - 種類：パブリック
 - レベル：地域
+
 ![ロードバランサの作成（基本）](https://user-images.githubusercontent.com/22112831/183275863-8f937608-054a-43af-bbe1-35f94c312838.png)
 
 
