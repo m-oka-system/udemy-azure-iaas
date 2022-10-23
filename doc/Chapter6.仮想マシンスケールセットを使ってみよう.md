@@ -2,11 +2,11 @@
 
 ## 参考サイト
 
-- [Azure ポータルからDSCを設定する](https://docs.microsoft.com/ja-jp/azure/virtual-machines/extensions/dsc-overview#azure-portal-functionality)
+- [Azure ポータルからDSCを設定する](https://learn.microsoft.com/ja-jp/azure/virtual-machines/extensions/dsc-overview#azure-portal-functionality)
 
-- [Azure Desired State Configuration 拡張機能のバージョン履歴](https://docs.microsoft.com/ja-jp/powershell/scripting/dsc/getting-started/azuredscexthistory?view=powershell-7)
+- [Azure Desired State Configuration 拡張機能のバージョン履歴](https://learn.microsoft.com/ja-jp/azure/automation/automation-dsc-extension-history?view=powershell-7)
 
-- [自動スケールのスケールルールについて](https://docs.microsoft.com/ja-jp/archive/blogs/jpcie/1315)
+- [自動スケールのスケールルールについて](https://learn.microsoft.com/ja-jp/archive/blogs/jpcie/1315)
 
 ## コマンド集
 
