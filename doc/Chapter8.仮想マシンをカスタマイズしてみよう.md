@@ -8,7 +8,7 @@
 
 - [Azure Portal を使用して仮想マシンに複数の IP アドレスを割り当てる](https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/virtual-network-multiple-ip-addresses-portal)
 
-- [Azure の仮想マシンのサイズ](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/sizes)
+- [Azure の仮想マシンのサイズ](https://learn.microsoft.com/ja-jp/azure/virtual-machines/sizes)
 
 - [Azure マネージド ディスクの概要](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/managed-disks-overview#a-nameimages-versus-snapshotsa%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%A8%E3%82%B9%E3%83%8A%E3%83%83%E3%83%97%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88)
 
