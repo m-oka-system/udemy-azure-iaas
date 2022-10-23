@@ -2,7 +2,7 @@
 
 ## 参考サイト
 
-- [Azure で一般化された VM の管理対象イメージを作成する](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/capture-image-resource)
+- [Azure で一般化された VM の管理対象イメージを作成する](https://learn.microsoft.com/ja-jp/azure/virtual-machines/windows/capture-image-resource)
 
 - [Virtual Machines シリーズ](https://azure.microsoft.com/ja-jp/pricing/details/virtual-machines/series/)
 
