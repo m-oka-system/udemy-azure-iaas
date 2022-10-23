@@ -2,7 +2,7 @@
 
 ## 参考サイト
 
-- [Azure Load Balancer の概要](https://azure.microsoft.com/ja-jp/documentation/articles/virtual-machines-load-balance/)
+- [Azure Load Balancer の概要](https://learn.microsoft.com/ja-jp/azure/load-balancer/load-balancer-overview)
 
 - [Load Balancer の価格](https://azure.microsoft.com/ja-jp/pricing/details/load-balancer/)
 
