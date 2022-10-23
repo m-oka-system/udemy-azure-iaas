@@ -2,21 +2,21 @@
 
 ## 参考サイト
 
-- [Azure の仮想マシンとIPアドレス](https://blogs.technet.microsoft.com/mskk-cloudos/2016/04/06/azure-ip/)
+- [Azure の仮想マシンとIPアドレス](https://learn.microsoft.com/ja-jp/archive/blogs/mskk-cloudos/azure-ip)
 
-- [Azure における IP アドレスの種類と割り当て方法](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-ip-addresses-overview-arm)
+- [パブリック IP アドレス](https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/public-ip-addresses)
 
 - [Azure Portal を使用して仮想マシンに複数の IP アドレスを割り当てる](https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/virtual-network-multiple-ip-addresses-portal)
 
 - [Azure の仮想マシンのサイズ](https://learn.microsoft.com/ja-jp/azure/virtual-machines/sizes)
 
-- [Azure マネージド ディスクの概要](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/managed-disks-overview#a-nameimages-versus-snapshotsa%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%A8%E3%82%B9%E3%83%8A%E3%83%83%E3%83%97%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88)
+- [Azure マネージド ディスクの概要](https://learn.microsoft.com/ja-jp/azure/virtual-machines/managed-disks-overview)
 
 - [Managed Disks の価格](https://azure.microsoft.com/ja-jp/pricing/details/managed-disks/)
 
-- [仮想マシンの複製方法のご紹介 (Part.1)](https://blogs.technet.microsoft.com/jpaztech/2018/09/21/arm-vm-replication-part-1/)
+- [仮想マシンの複製方法のご紹介 (Part.1)](https://learn.microsoft.com/ja-jp/archive/blogs/jpaztech/arm-vm-replication-part-1)
 
-- [実行コマンドを使用して Windows VM でスクリプトを実行する](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/run-command)
+- [実行コマンドを使用して Windows VM でスクリプトを実行する](https://learn.microsoft.com/ja-jp/azure/virtual-machines/windows/run-command)
 
 ## コマンド集
 
