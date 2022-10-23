@@ -6,7 +6,7 @@
 
 - [Virtual Machines シリーズ](https://azure.microsoft.com/ja-jp/pricing/details/virtual-machines/series/)
 
-- [Azure の仮想マシンのサイズ](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/sizes)
+- [Azure の仮想マシンのサイズ](https://learn.microsoft.com/ja-jp/azure/virtual-machines/sizes)
 
 - [Windows Virtual Machines の料金](https://azure.microsoft.com/ja-jp/pricing/details/virtual-machines/windows/)
 
