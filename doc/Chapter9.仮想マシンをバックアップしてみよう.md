@@ -8,7 +8,7 @@
 
 - [スナップショットの整合性](https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-vms-introduction#snapshot-consistency)
 
-- [Azure Backup の バックアップ / リストア 所要時間について](https://jpabrs-scem.github.io/blog/RecoveryServicesVaults/Backup_RecoveryTIme/)
+- [Azure Backup の バックアップ / リストア 所要時間について](https://jpabrs-scem.github.io/blog/AzureBackupGeneral/Backup_RecoveryTIme/)
 
 - [Azure 仮想マシンのバックアップからファイルを回復する](https://learn.microsoft.com/ja-jp/azure/backup/backup-azure-restore-files-from-vm)
 
